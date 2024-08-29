@@ -3,21 +3,21 @@
 * [Redis Crash Course Tutorial](https://www.youtube.com/watch?v=Hbt56gFj998)
 * [Redis commands](https://redis.io/docs/latest/commands/)
 * [Redis python client](https://redis-py.readthedocs.io/en/stable/)
-* [How to Use Redis With Python](How to Use Redis With Python)
+* [How to Use Redis With Python](https://realpython.com/python-redis/)
 
-## Learning Objectives
+# Learning Objectives
 * Learn how to use redis for basic operations
 * Learn how to use redis as a simple cache
 
 ## Requirements
 * All of your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7)
 * All of your files should end with a new line
-* A README.md file, at the root of the folder of the project, is mandatory
-* The first line of all your files should be exactly #!/usr/bin/env python3
+* A `README.md` file, at the root of the folder of the project, is mandatory
+* The first line of all your files should be exactly `#!/usr/bin/env python3`
 Your code should use the pycodestyle style (version 2.5)
-* All your modules should have documentation (python3 -c 'print(__import__("my_module").__doc__)')
-* All your classes should have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-* All your functions and methods should have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+* All your modules should have documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
+* All your classes should have documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`)
+* All your functions and methods should have documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`)
 * A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 * All your functions and coroutines must be type-annotated.
 
@@ -187,4 +187,4 @@ Cache.store(*('foo',)) -> 13bf32a9-a249-4664-95fc-b1062db2038f
 Cache.store(*('bar',)) -> dcddd00c-4219-4dd7-8877-66afbe8e7df8
 Cache.store(*(42,)) -> 5e752f2b-ecd8-4925-a3ce-e2efdee08d20
 ```
-Tip: use lrange and zip to loop over inputs and outputs.
+Tip: use `lrange` and `zip` to loop over inputs and outputs.
